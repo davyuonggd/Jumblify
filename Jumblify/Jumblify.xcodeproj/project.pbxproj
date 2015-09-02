@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4191A05A19ECAE0400BEB234 /* JumblifyViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4191A05919ECAE0400BEB234 /* JumblifyViewControllerTests.m */; };
 		41D0C0AF19E9F801002D0D06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D0C0AE19E9F801002D0D06 /* main.m */; };
 		41D0C0B219E9F801002D0D06 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D0C0B119E9F801002D0D06 /* AppDelegate.m */; };
 		41D0C0B519E9F801002D0D06 /* JumblifyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D0C0B419E9F801002D0D06 /* JumblifyViewController.m */; };
 		41D0C0B819E9F801002D0D06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41D0C0B619E9F801002D0D06 /* Main.storyboard */; };
 		41D0C0BA19E9F801002D0D06 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41D0C0B919E9F801002D0D06 /* Images.xcassets */; };
 		41D0C0BD19E9F801002D0D06 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41D0C0BB19E9F801002D0D06 /* LaunchScreen.xib */; };
+		5B1A2CAD1B96767500C48016 /* JumblifyViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1A2CAC1B96767500C48016 /* JumblifyViewControllerTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,7 +27,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4191A05919ECAE0400BEB234 /* JumblifyViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JumblifyViewControllerTests.m; sourceTree = "<group>"; };
 		41D0C0A919E9F801002D0D06 /* Jumblify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jumblify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41D0C0AD19E9F801002D0D06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		41D0C0AE19E9F801002D0D06 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +39,7 @@
 		41D0C0BC19E9F801002D0D06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		41D0C0C219E9F801002D0D06 /* JumblifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JumblifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		41D0C0C719E9F801002D0D06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B1A2CAC1B96767500C48016 /* JumblifyViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JumblifyViewControllerTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,8 +105,8 @@
 		41D0C0C519E9F801002D0D06 /* JumblifyTests */ = {
 			isa = PBXGroup;
 			children = (
-				4191A05919ECAE0400BEB234 /* JumblifyViewControllerTests.m */,
 				41D0C0C619E9F801002D0D06 /* Supporting Files */,
+				5B1A2CAC1B96767500C48016 /* JumblifyViewControllerTests.m */,
 			);
 			path = JumblifyTests;
 			sourceTree = "<group>";
@@ -229,7 +229,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4191A05A19ECAE0400BEB234 /* JumblifyViewControllerTests.m in Sources */,
+				5B1A2CAD1B96767500C48016 /* JumblifyViewControllerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
